@@ -1,0 +1,20 @@
+# Dataset: the archives (images.tar.gz, annotations.tar.gz) are tracked,
+# the extracted folders are not (torchvision unpacks them from the archives)
+data/oxford-iiit-pet/images/
+data/oxford-iiit-pet/annotations/
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
